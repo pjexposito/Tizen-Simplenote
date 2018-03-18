@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+}
+
+
+.content_text {
+	font-weight:bold;
+	font-size:5em;
+	color:#fff;
+}
+
+.boton_ok::before {
+	background-color: rgba(245, 245, 245, 1);
+	-webkit-mask-image: url(ok.png);
+ }
+.boton_cancelar::before {
+	background-color: rgba(245, 245, 245, 1);
+	-webkit-mask-image: url(cancelar.png);
+ }
